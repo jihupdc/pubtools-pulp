@@ -1,3 +1,6 @@
+# pip raises error that setuptools should be pinned in --require-hashes mode.
+# So lock it here and add --allow-unsafe to pip-compile.
+setuptools==80
 pubtools>=0.3.0
 pubtools-pulplib>=2.36.0
 more_executors>=2.7.0

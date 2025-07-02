@@ -37,7 +37,7 @@ setup(
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
     install_requires=get_requirements(),
-    python_requires=">=3.6",
+    python_requires=">=3.12",
     entry_points={
         "console_scripts": [
             "pubtools-pulp-garbage-collect = pubtools._pulp.tasks.garbage_collect:entry_point",
